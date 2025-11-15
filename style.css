@@ -1,0 +1,142 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(180deg, #8B4513, #A0522D, #D2691E, #F4A460);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 40px;
+    color: #2c1a0d;
+    line-height: 1.8;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.90);
+    padding: 35px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    backdrop-filter: blur(4px);
+}
+
+.section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(139, 69, 19, 0.35);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #5a2d0c;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+}
+
+h2 {
+    color: #703811;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #8B4513;
+}
+
+
+p {
+    font-size: 1.12rem;
+}
+
+/* ======= CITAÇÃO ======= */
+
+blockquote {
+    background: rgba(255, 238, 220, 0.8);
+    border-left: 6px solid #A0522D;
+    margin: 25px 0;
+    padding: 18px 25px;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+blockquote footer {
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    color: #6f3612;
+}
+
+
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* ======= TABELA ======= */
+
+table {
+    width: 100%;
+    margin-top: 35px;
+    border-collapse: collapse;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+caption {
+    background: #bc7542;
+    color: #fff;
+    padding: 14px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+th {
+    background: #cf8652;
+    color: #fff;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ffead4;
+}
+
+tr:nth-child(even) {
+    background: #fff3e6;
+}
+
+td[colspan] {
+    background: #ffe3c7;
+    font-weight: bold;
+}
+
+/* ======= RESPONSIVO ======= */
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+}
